@@ -8,7 +8,9 @@
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
     "postinstall": "patch-package",
-    "generate-docs": "yarn run babel --presets @babel/preset-env ../packages/selenium-ide-extension/scripts/website/generate-api-docs.js ../packages/selenium-ide-extension/src/neo/models/Command/Commands.js ../packages/selenium-ide-extension/src/neo/models/Command/ArgTypes.js -d tmp;SCRIPT_EXEC=true node -e \"require('./tmp/generate-api-docs.js').generateApiDocs()\";rm -rf ./tmp"
+    "generate-docs": "yarn run babel --presets @babel/preset-env ../packages/selenium-ide-extension/scripts/website/generate-api-docs.js ../packages/selenium-ide-extension/src/neo/models/Command/Commands.js ../packages/selenium-ide-extension/src/neo/models/Command/ArgTypes.js -d tmp;SCRIPT_EXEC=true node -e \"require('./tmp/generate-api-docs.js').generateApiDocs()\";rm -rf ./tmp",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {
     "docusaurus": "^1.6.2",
@@ -18,6 +20,8 @@
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3"
-  }
+    "@babel/preset-env": "^7.2.3",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
