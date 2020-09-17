@@ -76,7 +76,7 @@
     "selianize": "^3.5.10",
     "string-natural-compare": "^2.0.2",
     "styled-components": "^2.1.2",
-    "ua-parser-js": "^0.7.17",
+    "ua-parser-js": "^0.7.22",
     "unescape": "^1.0.1",
     "uuid": "^3.1.0",
     "webextension-polyfill": "^0.3.1",
