@@ -40,7 +40,7 @@
     "selenium-webdriver": "4.0.0-alpha.1",
     "selianize": "^3.5.10",
     "semver": "^5.5.1",
-    "winston": "^2.4.0"
+    "winston": "^3.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
