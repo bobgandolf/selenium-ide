@@ -32,14 +32,14 @@
     "commander": "^2.12.2",
     "glob": "^7.1.2",
     "global-npm": "^0.3.0",
-    "jest-cli": "24.1.0",
+    "jest-cli": "25.0.0",
     "jest-environment-selenium": "2.1.0",
     "js-beautify": "^1.7.5",
     "js-yaml": "^3.10.0",
     "rimraf": "^2.6.2",
     "selenium-webdriver": "4.0.0-alpha.1",
     "selianize": "^3.5.10",
-    "semver": "^5.5.1",
+    "semver": "^7.5.2",
     "winston": "^2.4.0"
   },
   "devDependencies": {
