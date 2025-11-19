@@ -35,7 +35,7 @@
     "jest-cli": "24.1.0",
     "jest-environment-selenium": "2.1.0",
     "js-beautify": "^1.7.5",
-    "js-yaml": "^3.10.0",
+    "js-yaml": "^3.14.2",
     "rimraf": "^2.6.2",
     "selenium-webdriver": "4.0.0-alpha.1",
     "selianize": "^3.5.10",
